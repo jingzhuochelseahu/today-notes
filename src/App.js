@@ -336,4 +336,7 @@ function Fact({ fact, setFacts }) {
   )
 }
 
+function Hello({ fact, setFacts }) {
+  const [isUpdating, setIsUpdating] = useState(false)
+}
 export default App
